@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 4rem;
+}
+
+.logo {
+    width: 6rem;
+    height: auto;
+    padding-right: 0.8rem;
+    border-right: 1px solid rgb(242 131 28);
+}
+
+.fa {
+    width: 1.2rem;
+    height: auto;
+    padding-left: 0.2rem;
+}
+
+.for {
+    padding-bottom: 0.2rem;
+}
+
+.text-header {
+    padding-left: 0.8rem;
+}
+
+.toast-header {
+    width: 100%;
+}
+
+.toast-2 {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.down{
+    padding-bottom: 2rem;
+}
+.toast-1 {
+    justify-content: center;
+}
+
+.header-text {
+    color: rgb(242 131 28);
+    padding-top: 0.1rem;
+    padding-left: 0.2rem;
+}
+
+.toast-1 {
+    border: none;
+    background-color: transparent;
+}
+
+.toast-header {
+    white-space: nowrap;
+}
+
+.container {
+    box-shadow: none;
+}
+
+.gr {
+    flex-direction: column;
+}
+
+.input-form {
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 40px;
+}
+
+.side {
+    padding: 2rem;
+    padding-top: 0.2rem;
+    margin: 0;
+    width: 50%;
+}
+
+.btn-submit {
+    padding: 0 4rem 0 4rem;
+}
+.visible{
+    display: block;
+}
+.visually-hidden{
+    display: none;
+}
+.bt {
+    border: none;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+.form-input {
+    border: 1px solid rgb(242 131 28);
+}
+
+.bouton {
+    background: rgb(242 131 28);
+    outline: 0;
+}
+
+.none {
+    border: none;
+    border-radius: none;
+    position: relative;
+}
+
+.tr {
+
+    border-radius: 2rem;
+}
+
+.eye {
+    width: auto;
+    height: 1rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 55%;
+    right: 8%;
+    bottom: 0;
+
+    border-left: 1px solid rgba(242 131 28);
+    cursor: pointer;
+}
+
+
+.card {
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.171);
+    border-radius: 1rem;
+    margin-top: 3rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .mobil {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .side {
+        width: 100%;
+    }
+}
